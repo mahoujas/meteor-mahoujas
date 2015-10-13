@@ -1,7 +1,7 @@
 Package.describe({
     name:"mahoujas:mahoujas",
     summary: "Mahoujas OAuth flow",
-    version: "1.1.0",
+    version: "1.1.1",
     documentation: 'README.md'
 });
 

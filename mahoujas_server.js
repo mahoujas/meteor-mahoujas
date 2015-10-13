@@ -4,7 +4,6 @@ OAuth.registerService('mahoujas', 2, null, function(query) {
 
   var accessToken = getAccessToken(query);
   var identity = getIdentity(accessToken);
-    console.log(identity);
   return {
     serviceData: {
       id: identity.sub,
