@@ -1,7 +1,7 @@
 Package.describe({
     name:"mahoujas:mahoujas",
     summary: "Mahoujas OAuth flow",
-    version: "1.1.1",
+    version: "1.1.2",
     documentation: 'README.md'
 });
 
@@ -14,6 +14,7 @@ Package.onUse(function(api) {
   api.use('templating', 'client');
   api.use('random', 'client');
   api.use('service-configuration', ['client', 'server']);
+  api.use('momentjs:moment', ['server']);
 
   api.addFiles(
     ['mahoujas_configure.html', 'mahoujas_configure.js'],
