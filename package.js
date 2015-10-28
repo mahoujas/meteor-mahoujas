@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.use('templating', 'client');
   api.use('random', 'client');
   api.use('service-configuration', ['client', 'server']);
-  api.use('momentjs:moment', ['server']);
+  api.use('momentjs:moment@2.10.6', ['server']);
 
   api.addFiles(
     ['mahoujas_configure.html', 'mahoujas_configure.js'],
